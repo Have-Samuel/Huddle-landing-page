@@ -4,13 +4,13 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ## Table of contents
 
-- [Overview](#overview)
+  - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+  - [Author](#author)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -23,14 +23,14 @@ Users should be able to:
 
 ### Screenshot
  ## Mobile
-![](./screenshot.jpg)
+![](./images/mobileVersion.png)
  ## Desktop
- ![](./screenshot.jpg)
+ ![](./images/desktopVersion.png)
 
 
 ### Links
 
-- [Github]()
+- [Github](https://github.com/Have-Samuel/Huddle-landing-page)
 - [Live Link]()
 
 ## My process
@@ -43,8 +43,6 @@ Users should be able to:
 - Mobile-first workflow
 - Positioning concepts
 
-
-
 ## Author
 
 - [Github](https://github.com/Have-Samuel)
@@ -56,7 +54,7 @@ Users should be able to:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/Have-Samuel/Huddle-landing-page/issues).
 
 ## Show your support
 
