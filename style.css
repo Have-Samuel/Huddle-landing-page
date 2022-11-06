@@ -97,10 +97,9 @@ body {
   padding: 6px;
 }
 
-@media (min-width: 1380px) {
+@media (min-width: 1400px) {
   body {
-    width: 1380px;
-    margin: 1.8rem auto 0 auto;
+    width: 1400px;
   }
 
   .content {
