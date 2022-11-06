@@ -9,4 +9,38 @@
 body {
   background-color: #fff;
   margin: 1rem auto;
+  width: 375px;
 }
+
+.content {
+  background: url('./images/bg-mobile.svg'), rgba(104, 75, 177, 1);
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.media {
+  height: 28px;
+  width: 103px;
+}
+
+/* .media li {
+  background-color: #fff;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  color: black;
+} */
+
+.twitter {
+  color: #fff;
+  font-size: 10px;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+/* .twitter-f {
+  background-color: #fff;
+  color: black;
+} */
