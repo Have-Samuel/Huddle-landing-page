@@ -87,6 +87,7 @@ body {
 }
 
 .twitter {
+  cursor: pointer;
   justify-content: center;
   align-items: center;
   color: #fff;
@@ -98,4 +99,98 @@ body {
 
 .fb-1 {
   padding: 6px;
+}
+
+@media (min-width: 1400px) {
+  body {
+    width: 1400px;
+    margin: 1.8rem auto 0 auto;
+  }
+
+  .content {
+    background: url('./images/bg-desktop.svg'), rgba(104, 75, 177, 1);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 5% 10%;
+  }
+
+  .huddle {
+    background: url('./images/logo.svg');
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 7% 128%;
+  }
+
+  .image {
+    background: url('./images/illustration-mockups.svg');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 12% 20%;
+    margin-top: 5.8rem;
+    height: 535px;
+  }
+
+  .content-items {
+    position: relative;
+  }
+
+  .sub-title {
+    width: 587px;
+    position: absolute;
+    top: 0;
+    left: 56%;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0;
+  }
+
+  .paragraph {
+    font-size: 18px;
+    line-height: 27px;
+    position: absolute;
+    width: 590px;
+    left: 57%;
+    top: 34%;
+    text-align: left;
+  }
+
+  .content-items a {
+    height: 56px;
+    border-radius: 30px;
+    position: absolute;
+    left: 60%;
+    top: 54%;
+  }
+
+  .media {
+    position: absolute;
+    right: 6%;
+    top: 690px;
+    grid-template-columns: 50px 50px 50px;
+  }
+
+  .twitter {
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+
+  .fb-1 {
+    padding: 12px;
+  }
+
+  .content-items a:hover,
+  .content-items a:active {
+    background-color: rgba(232, 128, 232, 1);
+    color: #fff;
+  }
+
+  .fa-twitter:hover,
+  .fa-twitter:active {
+    color: rgba(232, 128, 232, 1);
+    border: 1px solid rgba(232, 128, 232, 1);
+  }
 }
