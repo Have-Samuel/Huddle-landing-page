@@ -19,6 +19,23 @@ body {
   position: relative;
 }
 
+.huddle {
+  background: url('./images/logo.svg');
+  background-repeat: no-repeat;
+  background-size: 33%;
+  background-position: 15% 60%;
+  height: 90px;
+}
+
+.image {
+  background: url('./images/illustration-mockups.svg');
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: 50%;
+  height: 215px;
+  margin-top: 2.1rem;
+}
+
 .media {
   height: 28px;
   width: 103px;
