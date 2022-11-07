@@ -105,23 +105,23 @@ body {
   .content {
     background: url('./images/bg-desktop.svg'), rgba(104, 75, 177, 1);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 5% 10%;
+    background-size: 100% 100%;
+    background-position: 50% 100%;
   }
 
   .huddle {
     background: url('./images/logo.svg');
     background-repeat: no-repeat;
-    background-size: 15%;
-    background-position: 7% 128%;
+    background-size: 18%;
+    background-position: 5% 140%;
   }
 
   .image {
     background: url('./images/illustration-mockups.svg');
     background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: 12% 20%;
-    margin-top: 5.8rem;
+    background-size: 54%;
+    background-position: 10% 20%;
+    margin-top: 6rem;
     height: 535px;
   }
 
