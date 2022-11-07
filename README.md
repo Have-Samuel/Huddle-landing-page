@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - [Github](https://github.com/Have-Samuel/Huddle-landing-page)
-- [Live Link](https://gleaming-huddle.netlify.app/)
+- [Live Link](https://stunning-huddle.netlify.app/)
 
 ## My process
 
