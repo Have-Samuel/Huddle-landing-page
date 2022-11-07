@@ -163,7 +163,7 @@ body {
   .media {
     position: absolute;
     right: 6%;
-    top: 690px;
+    top: 680px;
     grid-template-columns: 50px 50px 50px;
   }
 
