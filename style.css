@@ -105,7 +105,7 @@ body {
   .content {
     background: url('./images/bg-desktop.svg'), rgba(104, 75, 177, 1);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100%;
     background-position: 50% 100%;
   }
 
