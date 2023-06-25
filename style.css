@@ -5,3 +5,188 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #fff;
+  margin: 1rem auto;
+  width: 375px;
+}
+
+.content {
+  background: url('./images/bg-mobile.svg'), rgba(104, 75, 177, 1);
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.huddle {
+  background: url('./images/logo.svg');
+  background-repeat: no-repeat;
+  background-size: 33%;
+  background-position: 15% 60%;
+  height: 90px;
+}
+
+.image {
+  background: url('./images/illustration-mockups.svg');
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: 50%;
+  height: 215px;
+  margin-top: 2rem;
+}
+
+.sub-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+  padding: 3.8rem 3rem 1rem 3rem;
+}
+
+.paragraph {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  padding: 0 2.25rem 1.5rem 2.25rem;
+}
+
+.content-items a {
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 1px 3px 5px 0 rgba(0, 0, 0, 0.269);
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgba(104, 75, 177, 1);
+  background-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.media {
+  display: grid;
+  grid-template-columns: 30px 30px 30px;
+  margin-top: 4rem;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.twitter {
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 10px;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.fb-1 {
+  padding: 6px;
+}
+
+@media (min-width: 1400px) {
+  body {
+    width: 1400px;
+  }
+
+  .content {
+    background: url('./images/bg-desktop.svg'), rgba(104, 75, 177, 1);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 100%;
+  }
+
+  .huddle {
+    background: url('./images/logo.svg');
+    background-repeat: no-repeat;
+    background-size: 18%;
+    background-position: 5% 140%;
+  }
+
+  .image {
+    background: url('./images/illustration-mockups.svg');
+    background-repeat: no-repeat;
+    background-size: 54%;
+    background-position: 10% 20%;
+    margin-top: 6rem;
+    height: 535px;
+  }
+
+  .content-items {
+    position: relative;
+  }
+
+  .sub-title {
+    width: 587px;
+    position: absolute;
+    top: 0;
+    left: 56%;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0;
+  }
+
+  .paragraph {
+    font-size: 18px;
+    line-height: 27px;
+    position: absolute;
+    width: 590px;
+    left: 57%;
+    top: 34%;
+    text-align: left;
+  }
+
+  .content-items a {
+    height: 56px;
+    font-size: 18px;
+    border-radius: 30px;
+    position: absolute;
+    left: 60%;
+    top: 54%;
+  }
+
+  .media {
+    position: absolute;
+    right: 6%;
+    top: 680px;
+    grid-template-columns: 50px 50px 50px;
+  }
+
+  .twitter {
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+
+  .fb-1 {
+    padding: 12px;
+  }
+
+  .content-items a:hover,
+  .content-items a:active {
+    background-color: rgba(232, 128, 232, 1);
+    color: #fff;
+  }
+
+  .fa-twitter:hover,
+  .fa-twitter:active {
+    color: rgba(232, 128, 232, 1);
+    border: 1px solid rgba(232, 128, 232, 1);
+  }
+}
